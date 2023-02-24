@@ -1,0 +1,23 @@
+@import url("communs.css");
+#etat-civil p {
+    margin: 0.5rem;
+  }
+  
+  img {
+    float: left;
+    height: 12rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    clear: both;
+  }
+  dd {
+    color: var(--couleur-1);
+    margin-bottom: 1rem;
+    display: inline-flex;
+  }
+  
+  dd + dd {
+    float: right;
+  }

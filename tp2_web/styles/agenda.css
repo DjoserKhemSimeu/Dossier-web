@@ -1,0 +1,78 @@
+@import url("communs.css");
+
+table:first-child {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+table:first-child > tr::nth-child(4) {
+    background-color: var(--couleur-0);
+}
+
+table:first-child th, table:first-child td {
+    border: 1px solid;
+    height: 45px;
+}
+
+table:first-child td:first-child {
+    background-color: wheat;
+}
+
+thead {
+    background-color: var(--couleur-0);
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: small;
+}
+
+.pose, #pose_midi {
+    background-color: rgb(218, 218, 218);
+}
+
+#legende > tbody > tr > td:nth-child(odd) {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+
+.algo {
+    background-color: rgb(250, 238, 65);
+}
+
+.eng {
+    background-color: coral;
+}
+
+.bdd {
+    background-color: rgb(243, 169, 206);
+}
+
+.genie {
+    background-color:rgb(199, 83, 145);
+}
+
+.prog {
+    background-color:rgb(172, 228, 116);
+}
+
+.reseaux {
+    background-color: rgb(86, 86, 190);
+}
+
+.sport {
+    background-color: rgb(68, 209, 68);
+}
+
+.systeme {
+    background-color: rgb(216, 45, 45);
+}
+
+.web {
+    background-color: rgb(59, 138, 59);
+}
